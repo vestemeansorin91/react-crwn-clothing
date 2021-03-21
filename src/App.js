@@ -32,9 +32,8 @@ class App extends React.Component {
             },
           });
         });
-      } else {
-        this.setState({ currentUser: userAuth });
       }
+      this.setState({ currentUser: userAuth });
     });
   }
 
